@@ -4,7 +4,6 @@ import {useHistory} from 'react-router-dom';
 var store = require('store');
 
 function Cart() {
-    //console.log("Cart rendered");
     const iL = useContext(itemContext);
     const history =useHistory();
     const {list,loggedIn}=iL.state;
@@ -85,8 +84,7 @@ function Cart() {
             </div>     
           </div> }
           </>
-          
-        
+
    )
 
 }

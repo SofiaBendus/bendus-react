@@ -3,7 +3,6 @@ import {itemContext} from '../App';
 var store = require('store');
 
 function DeliveryInfo() { 
-  //console.log("delvry-info rendered");
     const iL = useContext(itemContext);
     const {loggedIn} = iL.state;
     const getUserDetails = store.get('user');

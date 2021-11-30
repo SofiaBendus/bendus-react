@@ -4,7 +4,6 @@ import {useHistory} from 'react-router-dom';
 var store = require('store');
 
 function EditProfile() {
-    //console.log("editprofile rendered");
     const history=useHistory();
     const memberId =store.get('user').id;
     const [edituser, setEditUser]=useState({mail:"", psd:"",addr:""})

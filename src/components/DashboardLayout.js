@@ -8,8 +8,7 @@ import EditProfile from './EditProfile'
 import CheckOut from './CheckOut';
 
 function DashboardLayout(props) {
-  //console.log("dashLayout rendered");
-    const matchPath = props.match.path;  
+    const matchPath = props.match.path;
   return (
         <div className="dashboardLayout">
         <CheckNavbar/> 

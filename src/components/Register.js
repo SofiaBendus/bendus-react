@@ -8,7 +8,6 @@ function Register() {
     const [msg,setMsg] = useState('');
     const history =useHistory();
     useEffect(()=>{
-        //console.log("register rendered");
          if(msg.includes("Success")){
             setTimeout(()=>{ history.push('/login');setMsg(''); },1000);            
          }

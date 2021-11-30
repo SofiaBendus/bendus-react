@@ -12,18 +12,13 @@ function Login() {
     const [userLogin, setUserLogin]=useState({mail:"", psd:""}) 
     const orderedItems = store.get('orderedItems');
     let flag=false;
-    //console.log("login rendered");
 
     useEffect(()=>{
-         //navigate to specific page after login
     if(loggedIn===true){
         if(orderedItems && orderedItems.length){
-        //got to checkout page
-        //flag=true;
         setTimeout(()=>{ history.replace('/checkout')},1000);
     }
     else{
-        //go to menu page
         history.replace('/');
     }
   }       
@@ -32,7 +27,6 @@ function Login() {
        const checkCred=(e)=>{
            flag=true;
         e.preventDefault();
-        //api call to fetch users
         axios.get("https://my-json-yumito-server.herokuapp.com/users")
          .then(response =>{
              flag=false;
@@ -64,7 +58,6 @@ function Login() {
         <input type="password" name="psd" className="form-control-lg" value={userLogin.psd} onChange={loginMe} placeholder="Password" required/>
         </div>
         <button className="btn btn-primary btn-lg m-3 ms-0">Sign in</button>
-        {/* {msg  && <span style={{color:'red',padding:'5px'}}>{msg}</span> } */}
         <hr/>
          <span>Don't have an account?  |   <Link to="/register">Register Here</Link></span> 
       </form>

@@ -2,7 +2,6 @@ import React,{useContext} from 'react'
 import {itemContext} from '../App';
 
 function MenuCard({data}) {
-    //console.log("menucard rendered");
     const iL = useContext(itemContext);
     
     const sendId=(id)=>{
@@ -13,7 +12,6 @@ function MenuCard({data}) {
         iL.method({type:'addItem',payload:data})
         iL.method({type:'getTotalItems'})           
     };
-   
 
     const colorCircle = data.vegan.toLowerCase() ==="veg" ? <i className="bi bi-circle-fill greenColor"></i> :
     data.vegan.toLowerCase() ==="egg" ? <i className="bi bi-circle-fill yellowColor"></i> : <i className="bi bi-circle-fill redColor"></i>

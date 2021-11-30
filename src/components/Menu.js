@@ -9,16 +9,12 @@ function Menu() {
     const iL = useContext(itemContext);
     const orderedItems =store.get('orderedItems');
     let {list}=iL.state ?? orderedItems ;
-    //console.log("menu rendered");
-    // navbar scrollup and down logic
-    //let prev= window.scrollY;
-   
+
     useEffect(()=>{ 
         let prev= window.scrollY;  
         const scrolling = ()=>{
             let current = window.scrollY;
             const catBar = document.getElementById("categoryBar");
-            //const loggedbar = document.getElementsByClassName("loggedBar");
             console.log(prev, current,"p","c")
             if (prev > current && current <10) {
                 if(catBar){

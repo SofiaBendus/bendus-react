@@ -3,7 +3,6 @@ import CardContainer from './CardContainer'
 import HomeInfoCardContainer from './HomeInfoCardContainer'
 
 function Home() {
-    //console.log("home rendered");
     return (
         <div>
             <CardContainer/>
@@ -11,5 +10,4 @@ function Home() {
         </div>
     )
 }
-
 export default React.memo(Home)

@@ -6,7 +6,6 @@ import Register from './Register';
 
 function LoginLayout(props) {
     const matchPath = props.match.path;
-   //console.log("loginLayout rendered");
     return (
         <>
         <CardContainer/>

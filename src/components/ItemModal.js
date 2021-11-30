@@ -2,7 +2,6 @@ import React,{useContext,useState} from 'react'
 import {itemContext} from '../App';
 
 function ItemModal() {
-  //console.log("item model rendered");
    const [count,setCount]=useState(0);
     const iL = useContext(itemContext);
     const {items,id,totalItems,list}=iL.state;
@@ -11,7 +10,6 @@ function ItemModal() {
     const dis=display[0];
     console.log(dis, "arrr");
     const increment=()=>{
-        //if(count>=0){ count++};
         if(count>=0){ setCount(p=>p+1)} ;
         iL.method({type:'addCart',payload:dis})
         if(list.length){
@@ -20,7 +18,6 @@ function ItemModal() {
         
     };
     const decrement=()=>{
-        //if(count>0){count--};
         if(count>0){ setCount(p=>p-1)} ;
     }
     return (

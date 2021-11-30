@@ -10,7 +10,6 @@ function RestaurantMenu() {
   const [error, setError]=useState(store.get('error') ?? '');
 
   useEffect(()=>{
-    //console.log("Restaurant menu rendered");
     if(items.length ===0){
     axios.get('https://raw.githubusercontent.com/SofiaBendus/bendus-react/main/src/menu.json')
     .then(response =>{

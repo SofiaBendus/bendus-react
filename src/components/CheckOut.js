@@ -2,7 +2,6 @@ import React from 'react'
 import DeliveryInfo from './DeliveryInfo'
 
 function CheckOut() {
-    //console.log("checkout rendered");
     return (
         <div className="checkOutOrder">
             <div className="d-flex align-items-center">

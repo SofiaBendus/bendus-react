@@ -1,8 +1,6 @@
 import React from 'react';
-// import {Link} from 'react-router-dom';
 
 function HomeInfoCard({infoImg, infoTitle, infoLink}) {
-  //console.log("homeinfocard rendered");
     return (
         <div className="card homeInfoCard text-center">
   <img className="card-img-top" src={infoImg} alt=""/>

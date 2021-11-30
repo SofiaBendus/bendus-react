@@ -18,24 +18,7 @@ function CategoryBar() {
           <a className="nav-link" href="#Time for Lunch">Lunch</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#Can I Have Snacks">Snacks</a>
-        </li>
-        <li className="nav-item">
           <a className="nav-link" href="#Dinner">Dinner</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#Burgers and Beverages">Burgers and Beverages</a>
-        </li>
-        <li className="nav-item dropdown">
-          <div className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" role="button">
-            More..
-          </div>
-          <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#Pizzanians">Pizza</a></li>
-            <li><a className="dropdown-item" href="#Desserts">Desserts</a></li>
-            <li><a className="dropdown-item" href="#Chick and Chicken">Chicken</a></li>
-            {/* <li><a className="dropdown-item" href="#Bread and Salad">Bread and Salad</a></li> */}
-          </ul>
         </li>
       </ul>
     </div>

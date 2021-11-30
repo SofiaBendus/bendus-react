@@ -8,7 +8,6 @@ function LoggedNavBar() {
   const iL = useContext(itemContext);
   const history=useHistory();
   const totalItems=store.get('totalitems')
-  //console.log("loggedbar rendered");
 
  const  getLogOut= () =>{
   if(window.confirm("Are you sure that you want to log off?")){ 
@@ -26,9 +25,7 @@ function LoggedNavBar() {
     </Link>
     
     </nav>
-
-     {/* <div className="d-flex justify-content-between align-items-center">  */}
-          <div className="px-3 pt-2 me-15 ms-auto" onClick={()=>{history.push('/menu')}}><i className="bi bi-cart-plus-fill fancyIcon position-relative" role="button"><span className="position-absolute translate-middle badge rounded-circle bg-danger" style={{fontSize:".45em"}}>
+            <div className="px-3 pt-2 me-15 ms-auto" onClick={()=>{history.push('/menu')}}><i className="bi bi-cart-plus-fill fancyIcon position-relative" role="button"><span className="position-absolute translate-middle badge rounded-circle bg-danger" style={{fontSize:".45em"}}>
     {totalItems!==0 ? totalItems: null}</span></i></div>
           <div className="px-5 pt-2 me-15 dropdown">
             <i className="bi bi-person-circle fancyIcon dropdown-toggle" role="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"></i>
@@ -37,9 +34,6 @@ function LoggedNavBar() {
     <li className="dropdown-item" onClick={getLogOut} role="button" title="Log Out">Log Out</li>
     </ul>
             </div>
-      {/* </div> */}
-        
-    
         </div>
     )
 }
