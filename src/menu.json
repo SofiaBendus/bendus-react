@@ -1,220 +1,241 @@
 [
   {
-    "id": 11111,
+    "id": 100,
     "category": "Breakfast",
     "items": [
       {
         "id": 1,
-        "itemName": "Fried Rise",
+        "itemName": "Toasts",
         "price": 20,
-        "vegan": "vegan",
+        "vegan": "Vegan",
+        "tag": "",
+        "quantity": 0,
+        "img": "https://images.unsplash.com/photo-1611888474857-3d559f0163be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+      },
+      {
+        "id": 2,
+        "itemName": "England Toast",
+        "price": 25,
+        "vegan": "Vegan",
+        "tag": "Chef's Special",
+        "quantity": 0,
+        "img": "https://images.unsplash.com/photo-1513442542250-854d436a73f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3114&q=80"
+      },
+      {
+        "id": 3,
+        "itemName": "French Toast",
+        "price": 24,
+        "vegan": "Vegan",
+        "tag": "",
+        "quantity": 0,
+        "img": "https://images.unsplash.com/photo-1538220856186-0be0e085984d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1063&q=80"
+      },
+      {
+        "id": 4,
+        "itemName": "Porridge",
+        "price": 15,
+        "vegan": "Vegan",
+        "tag": "CMust try",
+        "quantity": 0,
+        "img": "https://images.unsplash.com/photo-1542691457-cbe4df041eb2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3387&q=80"
+      },
+      {
+        "id": 5,
+        "itemName": "Pancakes",
+        "price": 25,
+        "vegan": "Vegan",
+        "tag": "",
+        "quantity": 0,
+        "img": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+      },
+      {
+        "id": 6,
+        "itemName": "Toasts",
+        "price": 30,
+        "vegan": "Vegan",
+        "tag": "Popular",
+        "quantity": 0,
+        "img": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "category": "Time for Lunch",
+    "items": [
+      {
+        "id": 7,
+        "itemName": "Bowl",
+        "price": 40,
+        "vegan": "Vegan",
+        "tag": "Chef's Special",
+        "quantity": 0,
+        "img": "https://images.unsplash.com/photo-1505576633757-0ac1084af824?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+      },
+      {
+        "id": 8,
+        "itemName": "Salad",
+        "price": 35,
+        "vegan": "Vegan",
+        "tag": "Must try",
+        "quantity": 0,
+        "img": "https://images.unsplash.com/photo-1546793665-c74683f339c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+      },
+      {
+        "id": 9,
+        "itemName": "Warm Salad",
+        "price": 35,
+        "vegan": "Not Vegan",
+        "tag": "Popular",
+        "quantity": 0,
+        "img": "https://images.unsplash.com/photo-1594834749740-74b3f6764be4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=782&q=80"
+      },
+      {
+        "id": 10,
+        "itemName": "Bowl",
+        "price": 40,
+        "vegan": "Vegan",
+        "tag": "Chef's Special",
+        "quantity": 0,
+        "img": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+      },
+      {
+        "id": 11,
+        "itemName": "Avocado and Egg Toast",
+        "price": 35,
+        "vegan": "Vegan",
+        "tag": "",
+        "quantity": 0,
+        "img": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=820&q=80"
+      }
+    ]
+  },
+  {
+    "id": 300,
+    "category": "Dinner",
+    "items": [
+      {
+        "id": 12,
+        "itemName": "Pasta",
+        "price": 50,
+        "vegan": "Not vegan",
+        "tag": "Popular",
+        "quantity": 0,
+        "img": "https://images.unsplash.com/photo-1600803907087-f56d462fd26b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=654&q=80"
+      },
+      {
+        "id": 13,
+        "itemName": "Grilled fish",
+        "price": 50,
+        "vegan": "Non vegan",
+        "tag": "Popular",
+        "quantity": 0,
+        "img": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+      },
+      {
+        "id": 14,
+        "itemName": "Stake",
+        "price": 50,
+        "vegan": "Not vegan",
+        "tag": "",
+        "quantity": 0,
+        "img": "https://images.unsplash.com/photo-1583953623787-ada99d338235?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+      },
+      {
+        "id": 15,
+        "itemName": "Fried Rise",
+        "price": 30,
+        "vegan": "Not vegan",
         "tag": "",
         "quantity": 0,
         "img": "https://images.unsplash.com/photo-1512058564366-18510be2db19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80"
       },
       {
-        "id": 2,
+        "id": 16,
         "itemName": "Meat Ball",
-        "price": 30,
-        "vegan": "veg",
-        "tag": "",
+        "price": 35,
+        "vegan": "Not vegan",
+        "tag": "Must try",
         "quantity": 0,
         "img": "https://images.unsplash.com/photo-1515516969-d4008cc6241a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
       },
       {
-        "id": 3,
+        "id": 16,
         "itemName": "Stake",
-        "price": 30,
-        "vegan": "veg",
+        "price": 45,
+        "vegan": "Not vegan",
         "tag": "Popular",
         "quantity": 0,
         "img": "https://images.unsplash.com/photo-1603073163308-9654c3fb70b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=854&q=80"
       },
       {
-        "id": 4,
+        "id": 18,
         "itemName": "Fish Burger",
-        "price": 30,
-        "vegan": "veg",
-        "tag": "",
+        "price": 45,
+        "vegan": "Not vegan",
+        "tag": "Must try",
         "quantity": 0,
         "img": "https://images.unsplash.com/photo-1572862905000-c5b6244027a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
       }
     ]
   },
   {
-    "id": 11112,
-    "category": "Time for Lunch",
-    "items": [
-      {
-        "id": 222,
-        "itemName": "Andhra Veg Meals",
-        "price": 300,
-        "vegan": "veg",
-        "tag": "",
-        "quantity": 0,
-        "img": "https://b.zmtcdn.com/data/dish_photos/424/3a19dd93fb46a3bb8bfd662c988a9424.jpg?fit=around|130:130&crop=130:130;*,*"
-      },
-      {
-        "id": 223,
-        "itemName": "Grilled fish",
-        "price": 350,
-        "vegan": "Non veg",
-        "tag": "Popular",
-        "quantity": 0,
-        "img": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-      },
-      {
-        "id": 224,
-        "itemName": "Stake",
-        "price": 330,
-        "vegan": "egg",
-        "tag": "",
-        "quantity": 0,
-        "img": "https://images.unsplash.com/photo-1583953623787-ada99d338235?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-      }
-    ]
-  },
-  {
-    "id": 11113,
-    "category": "Can I Have Snacks",
-    "items": [
-      {
-        "id": 330,
-        "itemName": "Paneer Hot Dog",
-        "price": 70,
-        "vegan": "veg",
-        "tag": "Popular",
-        "quantity": 0,
-        "img": "https://cookwithchandni.files.wordpress.com/2020/09/img_20200906_131242_765-1.jpg"
-      },
-      {
-        "id": 331,
-        "itemName": "Mushroom Hot Dog",
-        "price": 70,
-        "vegan": "veg",
-        "tag": "",
-        "quantity": 0,
-        "img": "https://www.connoisseurusveg.com/wp-content/uploads/2017/06/portobello-mushroom-hot-dogs.jpg"
-      },
-      {
-        "id": 332,
-        "itemName": "Cheese Sandwich",
-        "price": 70,
-        "vegan": "veg",
-        "tag": "",
-        "quantity": 0,
-        "img": "https://cdn.cdnparenting.com/articles/2020/02/27142028/GRILLED-CHEESE-SANDWICH.jpg"
-      },
-      {
-        "id": 333,
-        "itemName": "Twister",
-        "price": 70,
-        "vegan": "veg",
-        "tag": "",
-        "quantity": 0,
-        "img": "https://i.pinimg.com/originals/f9/9c/e1/f99ce11733d7aa4103c9d1d1e2f6be17.jpg"
-      }
-    ]
-  },
-  {
-    "id": 11114,
-    "category": "Dinner",
-    "items": [
-      {
-        "id": 920,
-        "itemName": "Kathal Pulao",
-        "price": 615,
-        "vegan": "veg",
-        "tag": "Chef's Special",
-        "quantity": 0,
-        "img": "https://b.zmtcdn.com/data/dish_photos/1d6/0d3e9dc9e380dc11155580c1c84011d6.jpg?fit=around|130:130&crop=130:130;*,*"
-      },
-      {
-        "id": 921,
-        "itemName": "Subz Paneer Pulao",
-        "price": 650,
-        "vegan": "veg",
-        "tag": "",
-        "quantity": 0,
-        "img": "https://b.zmtcdn.com/data/dish_photos/d01/b428c38fa7bdc4bc2a40595000377d01.jpg?fit=around|130:130&crop=130:130;*,*"
-      },
-      {
-        "id": 922,
-        "itemName": "Chemmeen Pulao",
-        "price": 620,
-        "vegan": "Non veg",
-        "tag": "",
-        "quantity": 0,
-        "img": "https://b.zmtcdn.com/data/dish_photos/3b8/22f1f678027ae64255496270886723b8.jpg?fit=around|130:130&crop=130:130;*,*"
-      },
-      {
-        "id": 923,
-        "itemName": "Keema Pulao",
-        "price": 620,
-        "vegan": "Non veg",
-        "tag": "Popular",
-        "quantity": 0,
-        "img": "https://b.zmtcdn.com/data/dish_photos/e19/656634a615824be2bf028b884a322e19.jpg?fit=around|130:130&crop=130:130;*,*"
-      }
-    ]
-  },
-  {
-    "id": 11117,
+    "id": 400,
     "category": "Desserts",
     "items": [
       {
-        "id": 2100,
-        "itemName": "Caramel Pecan Cheesecake",
-        "price": 200,
-        "vegan": "Non veg",
+        "id": 19,
+        "itemName": "Strawberry and banana pancakes",
+        "price": 20,
+        "vegan": "Vegan",
         "tag": "Seasonal",
         "quantity": 0,
-        "img": "https://sugarspunrun.com/wp-content/uploads/2019/01/Best-Cheesecake-Recipe-2-1-of-1-4.jpg"
+        "img": "https://images.unsplash.com/photo-1587314168485-3236d6710814?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1678&q=80"
       },
       {
-        "id": 2101,
-        "itemName": "Red Velvet Cheesecake",
-        "price": 300,
-        "vegan": "Non veg",
+        "id": 20,
+        "itemName": "strawberries jars",
+        "price": 25,
+        "vegan": "Vegan",
         "tag": "Popular",
         "quantity": 0,
-        "img": "https://cdn.shopify.com/s/files/1/0521/3929/4884/products/RedVelvetCake2.jpg?v=1620806347"
+        "img": "https://images.unsplash.com/photo-1488477181946-6428a0291777?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
       },
       {
-        "id": 2102,
-        "itemName": "Vanilla Cupcake with Chocolate Buttercream - Pack of Two",
-        "price": 160,
-        "vegan": "veg",
+        "id": 21,
+        "itemName": "Sandwich with strawberry",
+        "price": 30,
+        "vegan": "Vegan",
         "tag": "Must try",
         "quantity": 0,
-        "img": "https://natashaskitchen.com/wp-content/uploads/2020/05/Vanilla-Cupcakes-3.jpg"
+        "img": "https://images.unsplash.com/photo-1541599188778-cdc73298e8fd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
       },
       {
-        "id": 2103,
-        "itemName": "Strawberry Sour Cream Coffee Cake",
-        "price": 160,
-        "vegan": "veg",
+        "id": 22,
+        "itemName": "Blueberry cupcakes",
+        "price": 15,
+        "vegan": "Vegan",
         "tag": "Recommended",
         "quantity": 0,
-        "img": "https://sugargeekshow.com/wp-content/uploads/2019/07/fresh-strawberry-cake-5.jpg"
+        "img": "https://images.unsplash.com/photo-1560180474-e8563fd75bab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80g"
       },
       {
-        "id": 2104,
-        "itemName": "Vanilla Ice Cream",
-        "price": 160,
-        "vegan": "veg",
+        "id": 23,
+        "itemName": "Chocolate cupcakes",
+        "price": 20,
+        "vegan": "Vegan",
         "tag": "Popular",
         "quantity": 0,
-        "img": "https://images.media-allrecipes.com/userphotos/1293054.jpg"
+        "img": "https://images.unsplash.com/photo-1574085733277-851d9d856a3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2076&q=80"
       },
       {
-        "id": 2105,
-        "itemName": "Strawberry Ice Cream",
-        "price": 160,
-        "vegan": "veg",
+        "id": 24,
+        "itemName": "Chocolate cake",
+        "price": 25,
+        "vegan": "Vegan",
         "tag": "Popular",
         "quantity": 0,
-        "img": "https://www.biggerbolderbaking.com/wp-content/uploads/2018/05/1C5A7434.jpg"
+        "img": "https://images.unsplash.com/photo-1508737804141-4c3b688e2546?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
       }
     ]
   }

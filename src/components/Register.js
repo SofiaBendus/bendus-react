@@ -26,9 +26,9 @@ function Register() {
         e.preventDefault();
         //api post to server
         axios.post('https://my-json-yumito-server.herokuapp.com/users',user)
+            //https://raw.githubusercontent.com/SofiaBendus/bendus-react/main/src/menu.json
         .then(res =>{
             setMsg("Registered Successfully");
-           //redirect to login page
         })
         .catch((e)=>{
             setMsg("Something went wrong. Please try again later");

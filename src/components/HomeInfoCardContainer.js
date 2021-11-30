@@ -5,8 +5,8 @@ import {Link} from 'react-router-dom';
 function HomeInfoCardContainer() {
     return (
         <div className="infoCardContainer d-flex flex-wrap justify-content-center align-items-center bd-grey">
-            <Link to="/menu"><HomeInfoCard infoImg="https://cdn.pixabay.com/photo/2018/03/07/18/42/menu-3206749_960_720.jpg" infoTitle="Order your favourite food" infoLink="Check the Menu"/></Link>
-            <Link to="#"><HomeInfoCard infoImg="https://images.squarespace-cdn.com/content/v1/56e33390b6aa60415bb5ff39/1477050412477-Q6ZG3W3JNFQZPFC4CHIP/Hours-Location-ICONS.jpg" 
+            <Link to="/menu"><HomeInfoCard infoImg="https://images.unsplash.com/photo-1568031813264-d394c5d474b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80" infoTitle="Order your favourite food" infoLink="Check the Menu"/></Link>
+            <Link to="#"><HomeInfoCard infoImg="https://img.hotels24.ua/photos/ria/new_images/1023/102313/10231371/10231371m.jpg"
             infoTitle=" Puluya Street, Ivano-Frankivsk" infoLink={`All days
             10AM - 9PM`}/></Link>
             

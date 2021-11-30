@@ -20,6 +20,9 @@ function CategoryBar() {
         <li className="nav-item">
           <a className="nav-link" href="#Dinner">Dinner</a>
         </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#Desserts">Desserts</a>
+        </li>
       </ul>
     </div>
   </div>

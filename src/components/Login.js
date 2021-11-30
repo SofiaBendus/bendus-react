@@ -28,6 +28,7 @@ function Login() {
            flag=true;
         e.preventDefault();
         axios.get("https://my-json-yumito-server.herokuapp.com/users")
+            //https://raw.githubusercontent.com/SofiaBendus/bendus-react/main/src/menu.json
          .then(response =>{
              flag=false;
         iL.method( {type:'checkUser', payload: response.data ,user:userLogin});
