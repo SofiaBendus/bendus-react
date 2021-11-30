@@ -1,7 +1,6 @@
 import React, {useEffect,useState} from 'react'
 import axios from 'axios';
 import MenuCard from './MenuCard';
-//import {itemContext} from '../App';
 var store =require('store');
 
 function RestaurantMenu() {
@@ -10,7 +9,7 @@ function RestaurantMenu() {
   const [error, setError]=useState(store.get('error') ?? '');
 
   useEffect(()=>{
-    if(items.length ===0){
+    if(true /*items.length === 0*/){
     axios.get('https://raw.githubusercontent.com/SofiaBendus/bendus-react/main/src/menu.json')
     .then(response =>{
       store.set('error', '');
